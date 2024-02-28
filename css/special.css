@@ -50,6 +50,8 @@ body {
   transform: translateX(-50%);
 }
 /* page header label */
+
+/* loader */
 .loader {
   position: fixed;
   top: 0;
@@ -80,19 +82,11 @@ body {
   border-radius: 50%;
   animation: loading 0.75s ease infinite;
 }
-@keyframes loading {
-  from {
-    transform: rotate(1turn);
-  }
-  to {
-    transform: rotate(2turn);
-  }
-}
-/*  */
+/* loader */
+
+/* start navbar-----------------------------------------------------------------------------  */
 .navbar {
   background: rgba(182, 180, 180, 0.6);
-  /* background: rgba(255, 250, 250, 0.6); */
-  /* height: 65px; */
   margin: 20px;
   border-radius: 15px;
   position: fixed;
@@ -112,7 +106,6 @@ body {
 .navbar .navbar-toggler {
   color: var(--section-primary-color);
   font-size: 25px;
-  /* border-color: white; */
   border: none;
 }
 .navbar .navbar-toggler:focus {
@@ -120,7 +113,6 @@ body {
   border: none;
 }
 .navbar .navbar-toggler[aria-expanded="true"] {
-  /* border-color: var(--blue-color); */
   border: none;
 }
 .navbar-nav {
@@ -150,7 +142,6 @@ body {
   visibility: visible;
 }
 .nav-item a:hover {
-  /* color: var(--blue-color); */
   color: #fff;
   opacity: 1;
 }
@@ -162,13 +153,15 @@ body {
   display: block;
 }
 .dropdown .dropdown-menu {
-  /* margin-top: 5px; */
   padding-top: 10px;
   background: rgba(182, 180, 180, 0.6);
   border-radius: 10px;
 }
-
-/* start theme button --------------------------------------------------------------- */
+.dropdown-menu a:hover {
+  color: #000000;
+  opacity: 1;
+}
+/* start theme button  */
 .btn-container {
   display: table-cell;
   vertical-align: middle;
@@ -244,8 +237,9 @@ body {
 .btn-color-mode-switch input[type="checkbox"]:checked ~ .alert {
   display: block;
 }
+/* end theme button */
 
-/*-------------------------------mode preview---------------------- Header */
+/* trans */
 .Arabic {
   /* padding-left: 10px; */
   text-decoration: none;
@@ -258,7 +252,9 @@ body {
   cursor: pointer;
   /* transition: 0.3s; */
 }
-/*--------------------------end nigth/light buton------------------ Header */
+/* trans */
+
+/* end navbar-----------------------------------------------------------------------------  */
 
 .special-home {
   padding-top: 40px !important;
@@ -280,19 +276,7 @@ body {
   opacity: 0.7;
   transform: scale(1.07);
 }
-/* start software-engineering-----------------------------------------------------------------------------  */
-.software-engineering {
-}
-/* end software-engineering-----------------------------------------------------------------------------  */
 
-/* start bioinformatics-----------------------------------------------------------------------------  */
-.bioinformatics {
-}
-/* end bioinformatics-----------------------------------------------------------------------------  */
-
-/* start artificial-intelligence -----------------------------------------------------------------------------  */
-.artificial-intelligence {
-}
 /* end artificial-intelligence -----------------------------------------------------------------------------  */
 .footer {
   background-image: linear-gradient(
@@ -302,6 +286,17 @@ body {
     var(--section-third-color)
   );
 }
+
+/* start keyframes-----------------------------------------------------------------------------  */
+@keyframes loading {
+  from {
+    transform: rotate(1turn);
+  }
+  to {
+    transform: rotate(2turn);
+  }
+}
+/* end keyframes-----------------------------------------------------------------------------  */
 
 @media only screen and (max-width: 990px) {
   .section-label h1 {
