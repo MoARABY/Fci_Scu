@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/credit.css">
+    <link rel="stylesheet" href="css/activites.css">
     <!-- <link rel="stylesheet" href="css/style.css"> -->
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -20,16 +20,16 @@
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container-fluid pe-5 ps-5">
             <a class="navbar-brand d-flex text-center" href="#">
-                <img src="Img/Fci_Logo(1).png" alt="" width="60" height="60">
+                <img src="Img/Fci_Logo(1).png" alt="logo" width="60" height="60">
 
                 <!-- <div class="logo-text d-flex p-2 fw-bold fs-5">
-                        كلية الحاسبات و المعلومات
-                        <span>جامعه قناه السويس</span>
-                        Faculty Of Computers and Informations
-                        <span>Suez Canal Universty</span>
-                        FCI
-                        <span>SCU</span>
-                    </div> -->
+                    كلية الحاسبات و المعلومات
+                    <span>جامعه قناه السويس</span>
+                    Faculty Of Computers and Informations
+                    <span>Suez Canal Universty</span>
+                    FCI
+                    <span>SCU</span>
+                </div> -->
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-navbar"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,58 +40,56 @@
             <div class="collapse navbar-collapse" id="main-navbar">
                 <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0 fw-bold">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.html#Home">Home</a>
+                        <a class="nav-link active text-center" aria-current="page" href="index.html#Home">Home</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
+                        <a class="nav-link dropdown-toggle text-center" href="general.html#general-home" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
                             General Departments
                         </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Computer sciences</a></li>
-                            <li><a class="dropdown-item" href="#">Information System</a></li>
-                            <li><a class="dropdown-item" href="#">Basic sciences</a></li>
+                        <ul class="dropdown-menu text-center">
+                            <li><a class="dropdown-item" href="general.html#computer-sciences">Computer sciences</a>
+                            </li>
+                            <li><a class="dropdown-item" href="general.html#information-system">Information
+                                    System</a></li>
+                            <li><a class="dropdown-item" href="general.html#basic-sciences">Basic sciences</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link dropdown-toggle text-center" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             Special Departments
                         </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Software Engineering
+                        <ul class="dropdown-menu text-center">
+                            <li><a class="dropdown-item" href="special.html#software-engineering">Software
+                                    Engineering
                                 </a></li>
-                            <li><a class="dropdown-item" href="#">bioinformatics</a></li>
-                            <li><a class="dropdown-item" href="#">Artificial Intelligence</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Academic years
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">First year</a></li>
-                            <li><a class="dropdown-item" href="#">Second year</a></li>
-                            <li><a class="dropdown-item" href="#">Third Year</a></li>
-                            <li><a class="dropdown-item" href="#">Fourth Year</a></li>
+                            <li><a class="dropdown-item" href="special.html#bioinformatics">bioinformatics</a></li>
+                            <li><a class="dropdown-item" href="special.html#artificial-intelligence">Artificial
+                                    Intelligence</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="credit.html#home">Credit hours system</a>
+                        <a class="nav-link text-center" aria-current="page" href="material.html#material">Academic
+                            Material</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-center" aria-current="page" href="credit.html#credit-home">Credit hours
+                            system</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link dropdown-toggle text-center" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             Building Map
                         </a>
-                        <ul class="dropdown-menu">
+                        <ul class="dropdown-menu text-center">
                             <li><a class="dropdown-item" href="#">Old building</a></li>
                             <li><a class="dropdown-item" href="#">New building</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Student activities</a>
+                        <a class="nav-link text-center" aria-current="page" href="#activite-home">Student
+                            Activities</a>
                     </li>
                 </ul>
 
@@ -106,20 +104,192 @@
         </div>
     </nav>
     <!-- end navbar ---------------------------------------------------------------------->
-    <section class="home pt-5 pb-5 text-center ">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-6 mt-3">
 
+    <!-- start home ---------------------------------------------------------------------->
+    <section id="activite-home" class="activite-home pt-5 pb-5 text-center ">
+        <div class="container">
+            <div class="loader">
+                <img src="Img/activites1.jpg" alt="devs-community">
+            </div>
+            <div class="row">
+                <div class="col-12  mt-3">
+                    <img class="img-fluid pt-5" src="Img/activites/un1.jpg" alt="un2">
                 </div>
                 <div class="col-12 col-md-6 mt-3">
-
+                    <!-- <img class="img-fluid pt-5" src="Img/activites/logo.jpg" alt="un2"> -->
                 </div>
             </div>
         </div>
     </section>
-    <!-- start home ---------------------------------------------------------------------->
+    <!-- end home ---------------------------------------------------------------------->
 
+    <!-- start home ---------------------------------------------------------------------->
+    <section id="union" class="union pt-5 pb-5 text-center ">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 mt-3">
+                    <div class="img-container">
+                        <img class="img-fluid pt-5" src="Img/activites/un1.jpg" alt="un2">
+                    </div>
+                    <h2 class="fw-bold">Student Union President</h2>
+                    <p class="fw-bold">محمد عربي عبدالله</p>
+                </div>
+                <div class="col-12 col-md-6 mt-3">
+                    <div class="img-container">
+                        <img class="img-fluid pt-5" src="Img/activites/un1.jpg" alt="un2">
+                    </div>
+                    <h2 class="fw-bold">Student Union Vice President</h2>
+                    <p class="fw-bold">محمد عربي عبدالله</p>
+                </div>
+                <!-- committees  -->
+                <div class=" col-12 col-md-6 mt-3">
+                    <h1>Scientific Committee</h1>
+                    <div class="committee d-flex align-items-center gap-3">
+                        <div class="one">
+                            <div class="img-container">
+                                <img class="img-fluid pt-5" src="Img/activites/un1.jpg" alt="un2">
+                            </div>
+                            <h2 class="fw-bold">Secretary</h2>
+                            <p class="fw-bold">محمد عربي عبدالله</p>
+                        </div>
+                        <div class="two">
+                            <div class="sc-committee">
+                                <div class="img-container">
+                                    <img class="img-fluid pt-5" src="Img/activites/un1.jpg" alt="un2">
+                                </div>
+                                <h2 class="fw-bold">Vice Secretary</h2>
+                                <p class="fw-bold">محمد عربي عبدالله</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 mt-3">
+                    <h1>Sports Committee</h1>
+                    <div class="committee d-flex align-items-center gap-3">
+                        <div class="one">
+                            <div class="img-container">
+                                <img class="img-fluid pt-5" src="Img/activites/un1.jpg" alt="un2">
+                            </div>
+                            <h2 class="fw-bold">Secretary</h2>
+                            <p class="fw-bold">محمد عربي عبدالله</p>
+                        </div>
+                        <div class="two">
+                            <div class="sc-committee">
+                                <div class="img-container">
+                                    <img class="img-fluid pt-5" src="Img/activites/un1.jpg" alt="un2">
+                                </div>
+                                <h2 class="fw-bold">Vice Secretary</h2>
+                                <p class="fw-bold">محمد عربي عبدالله</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 mt-3">
+                    <h1>Social Committee</h1>
+                    <div class="committee d-flex align-items-center gap-3">
+                        <div class="one">
+                            <div class="img-container">
+                                <img class="img-fluid pt-5" src="Img/activites/un1.jpg" alt="un2">
+                            </div>
+                            <h2 class="fw-bold">Secretary</h2>
+                            <p class="fw-bold">محمد عربي عبدالله</p>
+                        </div>
+                        <div class="two">
+                            <div class="sc-committee">
+                                <div class="img-container">
+                                    <img class="img-fluid pt-5" src="Img/activites/un1.jpg" alt="un2">
+                                </div>
+                                <h2 class="fw-bold">Vice Secretary</h2>
+                                <p class="fw-bold">محمد عربي عبدالله</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 mt-3">
+                    <h1>Cultural Committee</h1>
+                    <div class="committee d-flex align-items-center gap-3">
+                        <div class="one">
+                            <div class="img-container">
+                                <img class="img-fluid pt-5" src="Img/activites/un1.jpg" alt="un2">
+                            </div>
+                            <h2 class="fw-bold">Secretary</h2>
+                            <p class="fw-bold">محمد عربي عبدالله</p>
+                        </div>
+                        <div class="two">
+                            <div class="sc-committee">
+                                <div class="img-container">
+                                    <img class="img-fluid pt-5" src="Img/activites/un1.jpg" alt="un2">
+                                </div>
+                                <h2 class="fw-bold">Vice Secretary</h2>
+                                <p class="fw-bold">محمد عربي عبدالله</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 mt-3">
+                    <h1>Arts Committee</h1>
+                    <div class="committee d-flex align-items-center gap-3">
+                        <div class="one">
+                            <div class="img-container">
+                                <img class="img-fluid pt-5" src="Img/activites/un1.jpg" alt="un2">
+                            </div>
+                            <h2 class="fw-bold">Secretary</h2>
+                            <p class="fw-bold">محمد عربي عبدالله</p>
+                        </div>
+                        <div class="two">
+                            <div class="sc-committee">
+                                <div class="img-container">
+                                    <img class="img-fluid pt-5" src="Img/activites/un1.jpg" alt="un2">
+                                </div>
+                                <h2 class="fw-bold">Vice Secretary</h2>
+                                <p class="fw-bold">محمد عربي عبدالله</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 mt-3">
+                    <h1>Scientific Committee</h1>
+                    <div class="committee d-flex align-items-center gap-3">
+                        <div class="one">
+                            <div class="img-container">
+                                <img class="img-fluid pt-5" src="Img/activites/un1.jpg" alt="un2">
+                            </div>
+                            <h2 class="fw-bold">Secretary</h2>
+                            <p class="fw-bold">محمد عربي عبدالله</p>
+                        </div>
+                        <div class="two">
+                            <div class="sc-committee">
+                                <div class="img-container">
+                                    <img class="img-fluid pt-5" src="Img/activites/un1.jpg" alt="un2">
+                                </div>
+                                <h2 class="fw-bold">Vice Secretary</h2>
+                                <p class="fw-bold">محمد عربي عبدالله</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--  -->
+            </div>
+        </div>
+    </section>
+    <!-- end home ---------------------------------------------------------------------->
+
+    <!-- start footer -->
+    <section id="footer" class="footer pt-3 pb-3 pb-md-1">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class=" text-white-50 pt-3 pt-md-0">&#169; Powered By <span><a class="text-white-50"
+                                href="https://devscommunity23.netlify.app/" target="_blank"
+                                style="text-decoration: none;">DevSCommunity</a></span>
+                        2024</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- end footer ---------------------------------------------------------------------->
 
     <script src="js/all.min.js"></script>
     <script src="js/main.js"></script>
