@@ -22,16 +22,132 @@ var SfourthYear_first = document.querySelectorAll(".fof-subject");
 var SfourthYear_second = document.querySelectorAll(".fos-subject");
 
 // var subjectDiv = document.querySelectorAll(".subject");
-first_Year.onclick = () => {
-  if (firstYear_first.style.display === "none") {
-    firstYear_first.style.display = "block";
-    firstYear_second.style.display = "block";
-  } else {
-    firstYear_first.style.display = "none";
-    firstYear_second.style.display = "none";
-  }
-  //   subjectDiv.forEach((e) => {
-  //     if (e.style.display === "none") e.style.display = "block";
-  //     else e.style.display = "none";
-  //   });
-};
+// first_Year.onclick = () => {
+//   if (firstYear_first.style.display === "none") {
+//     firstYear_first.style.display = "block";
+//     firstYear_second.style.display = "block";
+//   } else {
+//     firstYear_first.style.display = "none";
+//     firstYear_second.style.display = "none";
+//   }
+//   //   subjectDiv.forEach((e) => {
+//   //     if (e.style.display === "none") e.style.display = "block";
+//   //     else e.style.display = "none";
+//   //   });
+// };
+
+//
+
+function toggleVisibility(element, children, parent = false) {
+  element.onclick = () => {
+    if (children.length > 0) {
+      children.forEach((child) => {
+        if (
+          child.style.display === "none" ||
+          getComputedStyle(child).display === "none"
+        ) {
+          child.style.display = "block";
+        } else {
+          child.style.display = "none";
+          if (element == first_Year) {
+            SfirstYear_first.forEach((item) => {
+              if (item.style.display === "block") {
+                item.style.display = "none";
+              }
+            });
+          }
+
+          if (element == first_Year) {
+            SfirstYear_second.forEach((item) => {
+              if (item.style.display === "block") {
+                item.style.display = "none";
+              }
+            });
+          }
+
+          if (element == second_Year) {
+            SsecondYear_first.forEach((item) => {
+              if (item.style.display === "block") {
+                item.style.display = "none";
+              }
+            });
+          }
+
+          if (element == second_Year) {
+            SsecondYear_second.forEach((item) => {
+              if (item.style.display === "block") {
+                item.style.display = "none";
+              }
+            });
+          }
+
+          if (element == third_Year) {
+            SthirdYear_first.forEach((item) => {
+              if (item.style.display === "block") {
+                item.style.display = "none";
+              }
+            });
+          }
+
+          if (element == third_Year) {
+            SthirdYear_second.forEach((item) => {
+              if (item.style.display === "block") {
+                item.style.display = "none";
+              }
+            });
+          }
+
+          if (element == fourth_Year) {
+            SfourthYear_first.forEach((item) => {
+              if (item.style.display === "block") {
+                item.style.display = "none";
+              }
+            });
+          }
+
+          if (element == fourth_Year) {
+            SfourthYear_second.forEach((item) => {
+              if (item.style.display === "block") {
+                item.style.display = "none";
+              }
+            });
+          }
+        }
+      });
+    }
+  };
+}
+
+toggleVisibility(
+  first_Year,
+  [firstYear_first, firstYear_second],
+  (parent = true)
+);
+toggleVisibility(
+  second_Year,
+  [secondYear_first, secondYear_second],
+  (parent = true)
+);
+toggleVisibility(
+  third_Year,
+  [thirdYear_first, thirdYear_second],
+  (parent = true)
+);
+toggleVisibility(
+  fourth_Year,
+  [fourthYear_first, fourthYear_second],
+  (parent = true)
+);
+
+// Additional toggles for individual subjects
+toggleVisibility(firstYear_first, SfirstYear_first);
+toggleVisibility(firstYear_second, SfirstYear_second);
+
+toggleVisibility(secondYear_first, SsecondYear_first);
+toggleVisibility(secondYear_second, SsecondYear_second);
+
+toggleVisibility(thirdYear_first, SthirdYear_first);
+toggleVisibility(thirdYear_second, SthirdYear_second);
+
+toggleVisibility(fourthYear_first, SfourthYear_first);
+toggleVisibility(fourthYear_second, SfourthYear_second);
