@@ -1,5 +1,6 @@
 let allLinks = document.querySelectorAll(".nav-link");
-// let captionText = document.querySelector(".caption h1");
+let allDropMenus = document.querySelectorAll(".dropdown-menu");
+let linksDrops = document.querySelectorAll(".dropdown-menu a");
 let captionParagraph = document.querySelector(".caption p");
 let about = document.querySelector(".about");
 let allHeaders = document.querySelectorAll(".about h1");
@@ -8,10 +9,6 @@ let allFooters = document.querySelectorAll(".footer p");
 
 let TransBtn = document.getElementById("trans");
 TransBtn.addEventListener("click", () => {
-  //   allLinks.forEach((e) => {
-  //     // allLinks[0].classList.add("text-center");
-  //     e.classList.add("text-center");
-  //   });
   let captionText = document.querySelector(".caption h1");
   if (
     captionText.getAttribute("text-data").trim() == captionText.innerHTML.trim()
@@ -24,14 +21,24 @@ TransBtn.addEventListener("click", () => {
       //   document.body.style.cssText = `font-family: "Noto Nastaliq Urdu", serif !important`;
 
       // navbar --------------------------------------------------------------------------------
+      allDropMenus.forEach((e) => {
+        e.style.width = "70%";
+      });
       allLinks[0].innerHTML = "الرئيسية";
       allLinks[1].innerHTML = "الاقسام العامة";
       allLinks[2].innerHTML = "البرامج الخاصة";
-      allLinks[3].innerHTML = "الفرق الدراسية";
+      allLinks[3].innerHTML = "المواد الأكاديمية";
       allLinks[4].innerHTML = "نظام الساعات المعتمده";
       allLinks[5].innerHTML = "خريطة المبني";
       allLinks[6].innerHTML = "الانشطة الطلابيه";
-
+      linksDrops[0].innerHTML = "علوم الحاسب";
+      linksDrops[1].innerHTML = "نظم المعلومات";
+      linksDrops[2].innerHTML = "العلوم الاساسيه";
+      linksDrops[3].innerHTML = "هندسة البرمجيات";
+      linksDrops[4].innerHTML = "المعلوماتية الحيوية";
+      linksDrops[5].innerHTML = "الذكاء الاصطناعي";
+      linksDrops[6].innerHTML = "المبني القديم";
+      linksDrops[7].innerHTML = "المبني الجديد";
       // home --------------------------------------------------------------------------------
       captionText.setAttribute(
         "text-data",
@@ -73,20 +80,30 @@ TransBtn.addEventListener("click", () => {
     } else if (TransBtn.getAttribute("lang") == "en") {
       captionText.style.lineHeight = "40px";
       // navbar --------------------------------------------------------------------------------
+      allDropMenus.forEach((e) => {
+        e.style.width = "100%";
+      });
       allLinks[0].innerHTML = "Home";
       allLinks[1].innerHTML = "General Departments";
       allLinks[2].innerHTML = "Special Departments";
-      allLinks[3].innerHTML = "Academic years";
+      allLinks[3].innerHTML = "Academic Material";
       allLinks[4].innerHTML = "Credit hours system";
       allLinks[5].innerHTML = "Building Map";
       allLinks[6].innerHTML = "Student Activities";
+      linksDrops[0].innerHTML = "Computer sciences";
+      linksDrops[1].innerHTML = "Information System";
+      linksDrops[2].innerHTML = "Basic sciences";
+      linksDrops[3].innerHTML = "Software Engineering";
+      linksDrops[4].innerHTML = "bioinformatics";
+      linksDrops[5].innerHTML = "Artificial Intelligence";
+      linksDrops[6].innerHTML = "Old building";
+      linksDrops[7].innerHTML = "New building";
 
       // home --------------------------------------------------------------------------------
       captionText.setAttribute(
         "text-data",
         "Welcome To unofficial FCI-SCU Website"
       );
-      //   document.body.style.cssText = `font-family:;`;
       captionText.style.fontFamily = "Kode Mono, monospace";
       captionText.innerHTML = "Welcome To unofficial FCI-SCU Website";
       captionParagraph.innerHTML =
