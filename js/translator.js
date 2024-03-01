@@ -4,8 +4,16 @@ fetch("/js/texts.json")
     main(data);
   });
 
+const TypeWriterEnglish = "Welcome To unofficial FCI-SCU Website";
+const TypeWriterArabic =
+  "اهلا بك في الموقع الرسمي لكلية الحاسبات و المعلومات جامعة قناة السويس";
+
 let lang = localStorage.getItem("lang") || "ar";
 const TransBtn = document.querySelector("#trans");
+
+let typewriter_text = lang === "ar" ? TypeWriterArabic : TypeWriterEnglish;
+let TypeWriterInterval;
+
 function main(data) {
   setPageLang();
 
@@ -17,6 +25,10 @@ function main(data) {
   function setPageLang() {
     localStorage.setItem("lang", lang);
     TransBtn.innerHTML = lang === "ar" ? "EN" : "عربي";
+    typewriter_text = lang === "ar" ? TypeWriterArabic : TypeWriterEnglish;
+
+    load_typewriter();
+
     if (lang === "ar") {
       TransBtn.style.padding = "0 0.5rem 0 0";
       document.body.style.direction = "rtl";
@@ -42,4 +54,27 @@ function main(data) {
         }
     }
   }
+}
+
+function load_typewriter() {
+  let Text_div = document.getElementsByClassName("main-text")[0];
+  if (!Text_div) return console.error("No main text div found");
+  Text_div.innerHTML = "";
+  if (lang === "ar") Text_div.style.fontFamily = "Noto Nastaliq Urdu, serif";
+  else Text_div.style.fontFamily = "Kode Mono, monospace";
+  let Main_Text = typewriter_text;
+  let counter = 0;
+
+  clearInterval(TypeWriterInterval);
+  TypeWriterInterval = setInterval(() => {
+    if (!Main_Text[counter])
+      return (counter = 0), clearInterval(TypeWriterInterval);
+    Text_div.innerHTML += Main_Text[counter];
+    counter++;
+    if (counter == Main_Text.length) {
+      clearInterval(typewriter);
+      counter = 0;
+      return;
+    }
+  }, 150);
 }

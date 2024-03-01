@@ -72,13 +72,61 @@
           "en": "Student Activities",
           "ar": "الانشطة الطلابية"
         }
+      ],
+      "Footer": [
+        {
+          "HTMLID": "Footer_Location",
+          "en": "Egypt - Ismailia - New Universty - K4.5",
+          "ar": "مصر - الاسماعيليه - الجامعة الجديدة - كيلو 4.5"
+        },
+        {
+          "HTMLID": "Footer_Phone",
+          "en": "Phone:/01022474253",
+          "ar": "هاتف:/01022474253"
+        }
       ]
     }
   ],
   "pages": [
     {
       "name": "Home",
-      "url": "/"
+      "components": [
+        {
+          "HTMLID": "Home_hero",
+          "en": "Faculty of Computers and Information is an exciting place for discovery and innovation in the world of technology, where students are trained and prepared to become leaders and innovators in the field of computers and information technology.",
+          "ar": "كلية الحاسوب والمعلومات هي مكان مثير للإكتشاف والإبتكار في عالم التكنولوجيا، حيث يتم تدريب الطلاب وتحضيرهم ليصبحوا قادة ومبتكرين في مجال الحاسوب وتكنولوجيا المعلومات."
+        },
+        {
+          "HTMLID": "Home_academic_message",
+          "en": "Academic Message",
+          "ar": "الرسالة الأكاديمية"
+        },
+        {
+          "HTMLID": "Home_academic_vision",
+          "en": "Academic Vision",
+          "ar": "الرؤية الأكاديمية"
+        },
+        {
+          "HTMLID": "Home_goals",
+          "en": "Strategic Goals",
+          "ar": "الأهداف الاستراتيجية"
+        },
+        {
+          "HTMLID": "Home_academic_message_text",
+          "en": "The Faculty of Computers and Information at Suez Canal University aspires to occupy a prominent position in the field of computers and information systems at the local and regional levels.",
+          "ar": "تطمح كلية الحاسوب والمعلومات بجامعة قناة السويس إلى احتلال مكانة بارزة في مجال الحاسوب ونظم المعلومات على المستويين المحلي والإقليمي."
+        },
+        {
+          "HTMLID": "Home_academic_vision_text",
+          "en": "The Faculty of Computers and Information at Suez Canal University is committed to preparing graduates capable of competing in the labor market and scientific research in the field of computers and information systems and providing effective services to society in light of a system of values ​​and ethics.",
+          "ar": "تلتزم كلية الحاسوب والمعلومات بجامعة قناة السويس بإعداد خريجين قادرين على المنافسة في سوق العمل والبحث العلمي في مجال الحاسوب ونظم المعلومات وتقديم خدمات فعالة للمجتمع في ضوء نظام من القيم والأخلاقيات."
+        },
+        {
+          "HTMLID": "Home_goals_text",
+          "en": "Develop and update programs, curricula, and educational methods Developing a system to support students and graduates Continuous evaluation of the educational process and evaluation of its effectiveness.",
+          "ar": "تطوير وتحديث البرامج والمناهج والأساليب التعليمية تطوير نظام لدعم الطلاب والخريجين التقييم المستمر للعملية التعليمية وتقييم فعاليتها."
+        }
+      ]
     }
   ]
 }

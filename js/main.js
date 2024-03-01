@@ -215,19 +215,3 @@ right_arr.addEventListener("click", () => {
 //   localStorage.getItem("third-theme-color")
 // );
 //
-
-// start typewriter------------------------------------------------------##########################################
-
-let Text_div = document.getElementsByClassName("main-text")[0];
-let Main_Text = Text_div.getAttribute("text-data");
-let counter = 0;
-let typewriter = setInterval(() => {
-  Text_div.innerHTML += Main_Text[counter];
-  counter++;
-  if (counter == Main_Text.length) {
-    clearInterval(typewriter);
-    counter = 0;
-  }
-}, 150);
-
-// end typewriter------------------------------------------------------##########################################
