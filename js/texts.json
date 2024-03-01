@@ -157,6 +157,82 @@
           "ar": "في نظام ساعة الائتمان ، يتم تطابق كل فصل دراسي تأخذه بساعات الائتمان التي سيتم تطبيقها على درجتك. ومع ذلك ، تظهر ساعة الائتمان عادةً كم من الوقت ستحتاج لمشاهدة الدروس لتلك الفصل خلال الأسبوع ، فضلاً عن كمية العمل الذي ستحتاج إلى القيام به. على سبيل المثال ، لا تستغرق الدورة التي تستحق ساعة ائتمان واحدة أي من الوقت خلال الفصل الدراسي. سيُطلب منك حضور الدرس مرة واحدة في الأسبوع وإكمال عمل متواضع مع دورات الائتمان 1-2. عندما تتقدم إلى الدورات على مستوى أعلى ، سترى أن مستوى الائتمان يرتفع مع مطالب الدورة بمزيد من انتباهك. بالنسبة لدورات الائتمان 3-4 ، قد تضطر إلى قضاء 3-4 ساعات في الأسبوع في المحاضرات ، مما يعني أن عليك أن تقضي وقتًا أطول خارج الفصل على المشاريع والعمل لتلك الدورة. بالنسبة لأي فصل دراسي بساعات ا"
         }
       ]
+    },
+    {
+      "name": "General",
+      "components": [
+        {
+          "HTMLID": "Leaders",
+          "en": "Leaders",
+          "ar": "القادة"
+        },
+        {
+          "HTMLID": "Computer_Science",
+          "en": "Computer Science",
+          "ar": "علوم الحاسوب"
+        },
+        {
+          "HTMLID": "Program_Message",
+          "en": "Program Message",
+          "ar": "رسالة البرنامج"
+        },
+        {
+          "HTMLID": "Program_Message_Text",
+          "en": "Preparing graduates with high cognitive and practical skills in the field of computer science by providing them with the latest knowledge, advanced skills, and high moral values ​​to serve society.",
+          "ar": "إعداد الخريجين بمهارات عقلية وعملية عالية في مجال علوم الحاسوب من خلال تزويدهم بأحدث المعارف والمهارات المتقدمة والقيم الأخلاقية العالية لخدمة المجتمع."
+        },
+        {
+          "HTMLID": "Program_Vision",
+          "en": "Program Vision",
+          "ar": "رؤية البرنامج"
+        },
+        {
+          "HTMLID": "Program_Vision_Text",
+          "en": "Providing a distinguished academic program in the field of computer science to advance college graduates to a level capable of competing and keeping pace with rapid technological changes.",
+          "ar": "تقديم برنامج أكاديمي متميز في مجال علوم الحاسوب لرفع خريجي الكلية إلى مستوى قادر على المنافسة ومواكبة التغيرات التكنولوجية السريعة."
+        },
+        {
+          "HTMLID": "Program_Goals",
+          "en": "Program Goals",
+          "ar": "أهداف البرنامج"
+        },
+        {
+          "HTMLID": "Program_Goals_Text",
+          "en": "<p class=\"fw-bold\">● Preparing graduates equipped with theoretical and practical knowledge of the basics of computer science that will enable them to compete academically and practically.</p> <p class=\"fw-bold\">● The ability to communicate with others clearly and effectively using technical concepts.</p> <p class=\"fw-bold\">● Training students to apply acquired knowledge and skills to solve problems that serve society </p> <p class=\"fw-bold\">● Ability to work with others from other disciplines</p> <p class=\"fw-bold\">● Appropriate development of academic curricula, including the integration of rapid changes in computer science.</p> <p class=\"fw-bold\">● Organizing seminars and holding scientific courses with the aim of raising the scientific and research level among graduates.</p> <p class=\"fw-bold\">● Meeting society’s need with competencies trained to use computer technology in various areas of life</p>",
+          "ar": "<p class=\"fw-bold\">● إعداد الخريجين المجهزين بالمعرفة النظرية والعملية لأساسيات علوم الحاسوب التي ستمكنهم من المنافسة أكاديمياً وعملياً.</p> <p class=\"fw-bold\">● القدرة على التواصل مع الآخرين بوضوح وفعالية باستخدام المفاهيم التقنية.</p> <p class=\"fw-bold\">● تدريب الطلاب على تطبيق المعرفة والمهارات المكتسبة لحل المشكلات التي تخدم المجتمع</p> <p class=\"fw-bold\">● القدرة على العمل مع الآخرين من تخصصات أخرى</p> <p class=\"fw-bold\">● تطوير مناسب للمناهج الأكاديمية، بما في ذلك دمج التغيرات السريعة في علوم الحاسوب.</p> <p class=\"fw-bold\">● تنظيم الندوات وعقد الدورات العلمية بهدف رفع المستوى العلمي والبحثي بين الخريجين.</p> <p class=\"fw-bold\">● تلبية احتياجات المجتمع بكفاءات مدربة على استخدام تكنولوجيا الحاسوب في مختلف مجالات الحياة</p>"
+        },
+
+        {
+          "HTMLID": "IS_Program_Message",
+          "en": "Program Message",
+          "ar": "رسالة البرنامج"
+        },
+        {
+          "HTMLID": "IS_Program_Message_Text",
+          "en": "The program seeks to raise the employment rate of its graduates by providingthem withpracticaland scientific competencies and skills in the field of management information systems andbusiness technology to support development towards the knowledge economy and informationsocietyby establishing partnerships with the business sector and giving greater attention to theapplied aspect of information systems in the business sector.",
+          "ar": "يسعى البرنامج إلى رفع معدل التوظيف لخريجيه من خلال تزويدهم بالكفاءات والمهارات العملية والعلمية في مجال نظم المعلومات الإدارية وتكنولوجيا الأعمال لدعم التنمية نحو الاقتصاد المعرفي والمجتمع المعلوماتي من خلال إقامة شراكات مع القطاع الأعمال وإيلاء اهتمام أكبر للجانب التطبيقي لنظم المعلومات في القطاع الأعمال."
+        },
+        {
+          "HTMLID": "IS_Program_Vision",
+          "en": "Program Vision",
+          "ar": "رؤية البرنامج"
+        },
+        {
+          "HTMLID": "IS_Program_Vision_Text",
+          "en": "We seek excellence and leadership scientifically and practically in a social                             educational                             environment open to the future in the field of information systems to advance the college                             graduate to a level capable of competing.",
+          "ar": "نسعى للتميز والقيادة علمياً وعملياً في بيئة تربوية اجتماعية مفتوحة على المستقبل في مجال نظم المعلومات لرفع خريج الكلية إلى مستوى قادر على المنافسة."
+        },
+        {
+          "HTMLID": "IS_Program_Goals",
+          "en": "Program Goals",
+          "ar": "أهداف البرنامج"
+        },
+        {
+          "HTMLID": "IS_Program_Goals_Text",
+          "en": "<p class=\"fw-bold\">● Providing high-quality education in information systems for students in a waythat suits theirdiverse interests and professional expectations and matches the needs of the labor market.</p><p class=\"fw-bold\">● Prepare students to apply their knowledge in the field of work usingproblem-solving tools andtechniques.</p><p class=\"fw-bold\">● Preparing students for lifelong learning by giving them the knowledge andskills necessary forscientific research and decision-making.</p><p class=\"fw-bold\">● Increase cooperation with the business sector, which enriches the scientificand applied skillsof graduates and helps them find job opportunities after graduation.</p><p class=\"fw-bold\">● Commitment to high professionalism and continuous improvement in the teachingand learningprocess in accordance with the quality guidelines followed at the university.</p><p class=\"fw-bold\">● Building partnerships and communicating with organizations in the public andprivate sectorsto understand problems related to informatics to provide creative solutions based on soundscientific and cognitive foundations.</p><p class=\"fw-bold\">● Ensuring the department’s academic excellence by focusing on scholarships fordistinguished andqualified students, providing and updating scientific sources such as books, scientificjournals, and databases, and enhancing the scientific capabilities of faculty members byencouraging them to participate in conferences, workshops, and seminars.</p>",
+          "ar": "<p class=\"fw-bold\">● تقديم تعليم عالي الجودة في نظم المعلومات للطلاب بطريقة تتناسب مع اهتماماتهم المتنوعة وتوقعاتهم المهنية وتتناسب مع احتياجات سوق العمل.</p><p class=\"fw-bold\">● إعداد الطلاب لتطبيق معرفتهم في مجال العمل باستخدام أدوات وتقنيات حل المشكلات.</p><p class=\"fw-bold\">● إعداد الطلاب للتعلم مدى الحياة من خلال منحهم المعرفة والمهارات اللازمة للبحث العلمي واتخاذ القرارات.</p><p class=\"fw-bold\">● زيادة التعاون مع القطاع الأعمال، الذي يثري المهارات العلمية والتطبيقية للخريجين ويساعدهم على العثور على فرص عمل بعد التخرج.</p><p class=\"fw-bold\">● الالتزام بالاحترافية العالية والتحسين المستمر في عملية التعليم والتعلم وفقًا للمبادئ الجودة المتبعة في الجامعة.</p><p class=\"fw-bold\">● بناء الشراكات والتواصل مع المنظمات في القطاعين العام والخاص لفهم المشكلات المتعلقة بالمعلوماتية لتقديم حلول إبداعية"
+        }
+      ]
     }
   ]
 }

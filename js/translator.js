@@ -3,7 +3,6 @@ fetch("/js/texts.json")
   .then((data) => {
     main(data);
   });
-
 const TypeWriterEnglish = "Welcome To unofficial FCI-SCU Website";
 const TypeWriterArabic =
   "اهلا بك في الموقع الرسمي لكلية الحاسبات و المعلومات جامعة قناة السويس";
@@ -12,6 +11,7 @@ let lang = localStorage.getItem("lang") || "ar";
 const TransBtn = document.querySelector("#trans");
 
 let typewriter_text = lang === "ar" ? TypeWriterArabic : TypeWriterEnglish;
+
 let TypeWriterInterval;
 
 function main(data) {
@@ -24,16 +24,31 @@ function main(data) {
   });
   function setPageLang() {
     localStorage.setItem("lang", lang);
-    TransBtn.innerHTML = lang === "ar" ? "EN" : "عربي";
+    TransBtn.innerHTML = lang === "ar" ? "EN" : "AR";
     typewriter_text = lang === "ar" ? TypeWriterArabic : TypeWriterEnglish;
 
     load_typewriter();
 
+    document.querySelectorAll(".change").forEach((element) => {
+      // dfs for all elements and change their text align to the current language
+      alignChangeDFS(element);
+    });
+    function alignChangeDFS(obj) {
+      obj.style.textAlign = lang === "ar" ? "right" : "left";
+      if (obj.children.length > 0) {
+        for (let i = 0; i < obj.children.length; i++) {
+          alignChangeDFS(obj.children[i]);
+        }
+      }
+    }
+
     if (lang === "ar") {
       TransBtn.style.padding = "0 0.5rem 0 0";
       document.body.style.direction = "rtl";
+      document.body.style.textAlign = "right";
     } else {
       document.body.style.direction = "ltr";
+      document.body.style.textAlign = "left";
     }
     for (const key in data) {
       dfs(data[key]);
