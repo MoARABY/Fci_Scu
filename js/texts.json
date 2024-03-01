@@ -127,6 +127,36 @@
           "ar": "تطوير وتحديث البرامج والمناهج والأساليب التعليمية تطوير نظام لدعم الطلاب والخريجين التقييم المستمر للعملية التعليمية وتقييم فعاليتها."
         }
       ]
+    },
+    {
+      "name": "Credit Hours System",
+      "components": [
+        {
+          "HTMLID": "GPA_INTRO",
+          "en": "It’s crucial to understand how the university classes you’re taking contribute to your degree when you first arrive in the United States. What system do you have in place to figure out how many classes you’ll need to finish your degree? This is what credit hours are about, and it’s how university students keep track of their degree progress while in school. If you’re a recent foreign student or actually new to the US university system, it may be difficult to figure out what’s going on in terms of how your coursework relates to your degree. We have included all of the answers in this blog and talk all about the Credit Hour System.",
+          "ar": "من الضروري فهم كيف تساهم الدروس الجامعية التي تتخذها في درجتك عندما تصل إلى الولايات المتحدة لأول مرة. ما هو النظام الذي لديك لمعرفة عدد الدروس التي ستحتاجها لإنهاء درجتك؟ هذا هو ما يتعلق الأمر بساعات الائتمان ، وهو كيف يحافظ الطلاب الجامعيون على تقدم درجتهم أثناء الدراسة. إذا كنت طالبًا أجنبيًا حديثًا أو حقًا جديدًا على نظام الجامعة الأمريكية ، فقد يكون من الصعب معرفة ما يحدث من حيث كيفية علاقة دورتك الدراسية بدرجتك. لقد قمنا بتضمين جميع الإجابات في هذه المدونة ونتحدث عن نظام ساعة الائتمان."
+        },
+        {
+          "HTMLID": "GAP_Crdit_Hours",
+          "en": "Credit Hours",
+          "ar": "نظام الساعات المعتمدة"
+        },
+        {
+          "HTMLID": "GPA_INTRO_2",
+          "en": "To understand the credit hour system, let us first come to terms with credit hours. Credit hours, at its most concrete sense, are measurement units that make up a degree’s completion. Each course would have a minimum number of credit hours that must be completed. Any degree will have its own collection of credit hour requirements…i.e. For example, depending on the university, a bachelor’s degree in the United States can require anywhere from 110 to 140 credits. Similarly, depending on the curriculum, it may be anywhere from 30 to 39 hours or more. In a credit hour system, the length of a course is usually expressed in credit hours. A course is given the total number of credit hours based on the amount of workload and instruction hours. Usually, lab work or lectures in a course are worth one credit. In the undergraduate degree, basic courses may be worth 2 or 3 credits. Besides, as you go through your undergraduate studies, some of them could be worth four credits. The majority of master’s classes are either 3 or 4 credits. A standard course in graduate school for an MS or MBA may be 3 to 4 credit hours, based on the course weight and load.",
+          "ar": "لفهم نظام ساعة الائتمان ، دعونا نأتي أولاً إلى اتفاق مع ساعات الائتمان. ساعات الائتمان ، في أكثر معناها العملي ، هي وحدات قياس تشكل إكمال الدرجة. يجب أن تحتوي كل دورة على عدد أدنى من ساعات الائتمان التي يجب إكمالها. ستحتوي أي درجة على مجموعتها الخاصة من متطلبات ساعات الائتمان ... أي على سبيل المثال ، اعتمادًا على الجامعة ، قد تتطلب درجة البكالوريوس في الولايات المتحدة من 110 إلى 140 رصيدًا. بالمثل ، اعتمادًا على المنهج ، قد يكون من 30 إلى 39 ساعة أو أكثر. في نظام ساعة الائتمان ، يتم التعبير عادةً عن طول الدورة في ساعات الائتمان. يتم منح الدورة العدد الإجمالي لساعات الائتمان بناءً على كمية العمل وساعات التعليم. عادةً ما تكون العمليات المختبرية أو المحاضرات في دورة تستحق ساعة ائتمان واحدة. في الدرجة الجامعية ، قد تستحق الدورات ال"
+        },
+        {
+          "HTMLID": "GPA_Degree_APP",
+          "en": "Degree App",
+          "ar": "التطبيق"
+        },
+        {
+          "HTMLID": "GPA_Degree_Text",
+          "en": "In the credit hour system, each class you take in a semester is matched to the credit hours that will be applied to your degree. However, the credit hour usually shows how much time you will need to watch lessons for that class over the week, as well as how much coursework you will need to do. A 1-credit class, for example, does not take up any of the time during the semester. You will be required to attend class once a week and complete modest work with 1- 2 credit courses. When you progress to higher-level classes, you will see that the credit level rises as the course demands more of your attention. For 3–4 credit courses, you may have to spend 3–4 hours per week in lectures, which means you’ll have to spend more time outside of class on projects and work for that class. For any 3–4 credit hour class you take, you can plan to work an additional 6–12 hours outside of class. This can vary depending on the class and the instructor, so that is how it usually happens. The core idea in a credit hour system is that the number of credit hours in a class reflects the number of hours you are supposed to watch lectures on the subject during the week. Take this with a grain of salt and it does not extend to any school. The easiest way to think of a credit hour is to consider how much “weight” it would have in your degree. The less credit hours the class has, the less work you’ll have to do and the fewer academic lectures you’ll have to attend. The greater the workload and amount of time spent watching lectures for a class, the greater the workload and amount of time spent watching lectures for that class.",
+          "ar": "في نظام ساعة الائتمان ، يتم تطابق كل فصل دراسي تأخذه بساعات الائتمان التي سيتم تطبيقها على درجتك. ومع ذلك ، تظهر ساعة الائتمان عادةً كم من الوقت ستحتاج لمشاهدة الدروس لتلك الفصل خلال الأسبوع ، فضلاً عن كمية العمل الذي ستحتاج إلى القيام به. على سبيل المثال ، لا تستغرق الدورة التي تستحق ساعة ائتمان واحدة أي من الوقت خلال الفصل الدراسي. سيُطلب منك حضور الدرس مرة واحدة في الأسبوع وإكمال عمل متواضع مع دورات الائتمان 1-2. عندما تتقدم إلى الدورات على مستوى أعلى ، سترى أن مستوى الائتمان يرتفع مع مطالب الدورة بمزيد من انتباهك. بالنسبة لدورات الائتمان 3-4 ، قد تضطر إلى قضاء 3-4 ساعات في الأسبوع في المحاضرات ، مما يعني أن عليك أن تقضي وقتًا أطول خارج الفصل على المشاريع والعمل لتلك الدورة. بالنسبة لأي فصل دراسي بساعات ا"
+        }
+      ]
     }
   ]
 }
