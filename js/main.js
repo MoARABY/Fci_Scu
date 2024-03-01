@@ -215,3 +215,6 @@ right_arr.addEventListener("click", () => {
 //   localStorage.getItem("third-theme-color")
 // );
 //
+
+
+
