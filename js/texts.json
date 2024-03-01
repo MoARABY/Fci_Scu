@@ -233,6 +233,102 @@
           "ar": "<p class=\"fw-bold\">● تقديم تعليم عالي الجودة في نظم المعلومات للطلاب بطريقة تتناسب مع اهتماماتهم المتنوعة وتوقعاتهم المهنية وتتناسب مع احتياجات سوق العمل.</p><p class=\"fw-bold\">● إعداد الطلاب لتطبيق معرفتهم في مجال العمل باستخدام أدوات وتقنيات حل المشكلات.</p><p class=\"fw-bold\">● إعداد الطلاب للتعلم مدى الحياة من خلال منحهم المعرفة والمهارات اللازمة للبحث العلمي واتخاذ القرارات.</p><p class=\"fw-bold\">● زيادة التعاون مع القطاع الأعمال، الذي يثري المهارات العلمية والتطبيقية للخريجين ويساعدهم على العثور على فرص عمل بعد التخرج.</p><p class=\"fw-bold\">● الالتزام بالاحترافية العالية والتحسين المستمر في عملية التعليم والتعلم وفقًا للمبادئ الجودة المتبعة في الجامعة.</p><p class=\"fw-bold\">● بناء الشراكات والتواصل مع المنظمات في القطاعين العام والخاص لفهم المشكلات المتعلقة بالمعلوماتية لتقديم حلول إبداعية"
         }
       ]
+    },
+    {
+      "name": "Special",
+      "components": [
+        {
+          "HTMLID": "SE_Program_Message",
+          "en": "Program Message",
+          "ar": "رسالة البرنامج"
+        },
+        {
+          "HTMLID": "SE_Program_Message_Text",
+          "en": "The program seeks to raise the employment rate of its graduates by providing them with practical and scientific competencies and skills in the field of software engineering and business technology to support development towards the knowledge economy and information society by establishing partnerships with the business sector and giving greater attention to the applied aspect of information systems in the business sector.",
+          "ar": "يسعى البرنامج إلى رفع معدل التوظيف لخريجيه من خلال تزويدهم بالكفاءات والمهارات العملية والعلمية في مجال هندسة البرمجيات وتكنولوجيا الأعمال لدعم التنمية نحو الاقتصاد المعرفي والمجتمع المعلوماتي من خلال إقامة شراكات مع القطاع الأعمال وإيلاء اهتمام أكبر للجانب التطبيقي لنظم المعلومات في القطاع الأعمال."
+        },
+        {
+          "HTMLID": "SE_Program_Vision",
+          "en": "Program Vision",
+          "ar": "رؤية البرنامج"
+        },
+        {
+          "HTMLID": "SE_Program_Vision_Text",
+          "en": "We seek excellence and leadership scientifically and practically in a social educational environment open to the future in the field of software engineering to advance the college graduate to a level capable of competing.",
+          "ar": "نسعى للتميز والقيادة علمياً وعملياً في بيئة تربوية اجتماعية مفتوحة على المستقبل في مجال هندسة البرمجيات لرفع خريج الكلية إلى مستوى قادر على المنافسة."
+        },
+        {
+          "HTMLID": "SE_Program_Goals",
+          "en": "Program Goals",
+          "ar": "أهداف البرنامج"
+        },
+        {
+          "HTMLID": "SE_Program_Goals_Text",
+          "en": "<p class=\"fw-bold\">● Providing high-quality education in software engineering for students in a way that suits their diverse interests and professional expectations and matches the needs of the labor market.</p><p class=\"fw-bold\">● Prepare students to apply their knowledge in the field of work using problem-solving tools and techniques.</p><p class=\"fw-bold\">● Preparing students for lifelong learning by giving them the knowledge and skills necessary for scientific research and decision-making.</p><p class=\"fw-bold\">● Increase cooperation with the business sector, which enriches the scientific and applied skills of graduates and helps them find job opportunities after graduation.</p><p class=\"fw-bold\">● Commitment to high professionalism and continuous improvement in the teaching and learning process in accordance with the quality guidelines followed at the university.</p><p class=\"fw-bold\">● Building partnerships and communicating with organizations in the public and private sectors to understand problems related to informatics to provide creative solutions based on sound scientific and cognitive foundations.</p><p class=\"fw-bold\">● Ensuring the department’s academic excellence by focusing on scholarships for distinguished and qualified students, providing and updating scientific sources such as books, scientific journals, and databases, and enhancing the scientific capabilities of faculty members by encouraging them to participate in conferences, workshops, and seminars.</p>",
+
+          "ar": "<p class=\"fw-bold\">● تقديم تعليم عالي الجودة في هندسة البرمجيات للطلاب بطريقة تتناسب مع اهتماماتهم المتنوعة وتوقعاتهم المهنية وتتناسب مع احتياجات سوق العمل.</p><p class=\"fw-bold\">● إعداد الطلاب لتطبيق معرفتهم في مجال العمل باستخدام أدوات وتقنيات حل المشكلات.</p><p class=\"fw-bold\">● إعداد الطلاب للتعلم مدى الحياة من خلال منحهم المعرفة"
+        },
+        {
+          "HTMLID": "Bio_Program_Message",
+          "en": "Program Message",
+          "ar": "رسالة البرنامج"
+        },
+        {
+          "HTMLID": "Bio_Program_Message_Text",
+          "en": "The program seeks to raise the employment rate of its graduates by providing them with practical and scientific competencies and skills in the field of bioinformatics and business technology to support development towards the knowledge economy and information society by establishing partnerships with the business sector and giving greater attention to the applied aspect of information systems in the business sector.",
+          "ar": "يسعى البرنامج إلى رفع معدل التوظيف لخريجيه من خلال تزويدهم بالكفاءات والمهارات العملية والعلمية في مجال المعلومات الحيوية وتكنولوجيا الأعمال لدعم التنمية نحو الاقتصاد المعرفي والمجتمع المعلوماتي من خلال إقامة شراكات مع القطاع الأعمال وإيلاء اهتمام أكبر للجانب التطبيقي لنظم المعلومات في القطاع الأعمال."
+        },
+        {
+          "HTMLID": "Bio_Program_Vision",
+          "en": "Program Vision",
+          "ar": "رؤية البرنامج"
+        },
+        {
+          "HTMLID": "Bio_Program_Vision_Text",
+          "en": "We seek excellence and leadership scientifically and practically in a social educational environment open to the future in the field of bioinformatics to advance the college graduate to a level capable of competing.",
+          "ar": "نسعى للتميز والقيادة علمياً وعملياً في بيئة تربوية اجتماعية مفتوحة على المستقبل في مجال المعلومات الحيوية لرفع خريج الكلية إلى مستوى قادر على المنافسة."
+        },
+        {
+          "HTMLID": "Bio_Program_Goals",
+          "en": "Program Goals",
+          "ar": "أهداف البرنامج"
+        },
+        {
+          "HTMLID": "Bio_Program_Goals_Text",
+          "en": "<p class=\"fw-bold\">● Providing high-quality education in bioinformatics for students in a way that suits their diverse interests and professional expectations and matches the needs of the labor market.</p><p class=\"fw-bold\">● Prepare students to apply their knowledge in the field of work using problem-solving tools and techniques.</p><p class=\"fw-bold\">● Preparing students for lifelong learning by giving them the knowledge and skills necessary for scientific research and decision-making.</p><p class=\"fw-bold\">● Increase cooperation with the business sector, which enriches the scientific and applied skills of graduates and helps them find job opportunities after graduation.</p><p class=\"fw-bold\">● Commitment to high professionalism and continuous improvement in the teaching and learning process in accordance with the quality guidelines followed at the university.</p><p class=\"fw-bold\">● Building partnerships and communicating with organizations in the public and private sectors to understand problems related to informatics to provide creative solutions based on sound scientific and cognitive foundations.</p><p class=\"fw-bold\">● Ensuring the department’s academic excellence by focusing on scholarships for distinguished and qualified students, providing and updating scientific sources such as books, scientific journals, and databases, and enhancing the scientific capabilities of faculty members by encouraging them to participate in conferences, workshops, and seminars.</p>",
+          "ar": "<p class=\"fw-bold\">● تقديم تعليم عالي الجودة في المعلومات الحيوية للطلاب بطريقة تتناسب مع اهتماماتهم المتنوعة وتوقعاتهم المهنية وتتناسب مع احتياجات سوق العمل.</p><p class=\"fw-bold\">● إعداد الطلاب لتطبيق معرفتهم في مجال العمل باستخدام أدوات وتقنيات حل المشكلات.</p><p class=\"fw-bold\">● إعداد الطلاب للتعلم مدى الحياة من خلال منحهم المعرفة والمهارات اللازمة للبحث العلمي واتخاذ القرارات.</p><p class=\"fw-bold\">● زيادة التعاون مع القطاع الأعمال، الذي يثري المهارات العلمية والتطبيقية للخريجين ويساعدهم على العثور على فرص عمل بعد التخرج.</p><p class=\"fw-bold\">● الالتزام بالاحترافية العالية والتحسين المستمر في عملية التعليم والتعلم وفقًا للمبادئ الجودة المتبعة في الجامعة.</p><p class=\"fw-bold\">● بناء الشراكات والتواصل مع المنظمات في القطاعين العام والخاص لفهم المشكلات المتعلقة بالمعلوماتية لتقديم حلول إبداعية"
+        },
+        {
+          "HTMLID": "AI_Program_Message",
+          "en": "Program Message",
+          "ar": "رسالة البرنامج"
+        },
+        {
+          "HTMLID": "AI_Program_Message_Text",
+          "en": "The program seeks to raise the employment rate of its graduates by providing them with practical and scientific competencies and skills in the field of artificial intelligence and business technology to support development towards the knowledge economy and information society by establishing partnerships with the business sector and giving greater attention to the applied aspect of information systems in the business sector.",
+          "ar": "يسعى البرنامج إلى رفع معدل التوظيف لخريجيه من خلال تزويدهم بالكفاءات والمهارات العملية والعلمية في مجال الذكاء الاصطناعي وتكنولوجيا الأعمال لدعم التنمية نحو الاقتصاد المعرفي والمجتمع المعلوماتي من خلال إقامة شراكات مع القطاع الأعمال وإيلاء اهتمام أكبر للجانب التطبيقي لنظم المعلومات في القطاع الأعمال."
+        },
+        {
+          "HTMLID": "AI_Program_Vision",
+          "en": "Program Vision",
+          "ar": "رؤية البرنامج"
+        },
+        {
+          "HTMLID": "AI_Program_Vision_Text",
+          "en": "We seek excellence and leadership scientifically and practically in a social educational environment open to the future in the field of artificial intelligence to advance the college graduate to a level capable of competing.",
+          "ar": "نسعى للتميز والقيادة علمياً وعملياً في بيئة تربوية اجتماعية مفتوحة على المستقبل في مجال الذكاء الاصطناعي لرفع خريج الكلية إلى مستوى قادر على المنافسة."
+        },
+        {
+          "HTMLID": "AI_Program_Goals",
+          "en": "Program Goals",
+          "ar": "أهداف البرنامج"
+        },
+        {
+          "HTMLID": "AI_Program_Goals_Text",
+          "en": "<p class=\"fw-bold\">● Providing high-quality education in artificial intelligence for students in a way that suits their diverse interests and professional expectations and matches the needs of the labor market.</p><p class=\"fw-bold\">● Prepare students to apply their knowledge in the field of work using problem-solving tools and techniques.</p><p class=\"fw-bold\">● Preparing students for lifelong learning by giving them the knowledge and skills necessary for scientific research and decision-making.</p><p class=\"fw-bold\">● Increase cooperation with the business sector, which enriches the scientific and applied skills of graduates and helps them find job opportunities after graduation.</p><p class=\"fw-bold\">● Commitment to high professionalism and continuous improvement in the teaching and learning process in accordance with the quality guidelines followed at the university.</p><p class=\"fw-bold\">● Building partnerships and communicating with organizations in the public and private sectors to understand problems related to informatics to provide creative solutions based on sound scientific and cognitive foundations.</p><p class=\"fw-bold\">● Ensuring the department’s academic excellence by focusing on scholarships for distinguished and qualified students, providing and updating scientific sources such as books, scientific journals, and databases, and enhancing the scientific capabilities of faculty members by encouraging them to participate in conferences, workshops, and seminars.</p>",
+          "ar": "<p class=\"fw-bold\">● تقديم تعليم عالي الجودة في الذكاء الاصطناعي للطلاب بطريقة تتناسب مع اهتماماتهم المتنوعة وتوقعاتهم المهنية وتتناسب مع احتياجات سوق العمل.</p><p class=\"fw-bold\">● إعداد الطلاب لتطبيق معرفتهم في مجال العمل باستخدام أدوات وتقنيات حل المشكلات.</p><p class=\"fw-bold\">● إعداد الطلاب للتعلم مدى الحياة من خلال منحهم المعرفة والمهارات اللازمة للبحث العلمي واتخاذ القرارات.</p><p class=\"fw-bold\">● زيادة التعاون مع القطاع الأعمال، الذي يثري المهارات العلمية والتطبيقية للخريجين ويساعدهم على العثور على فرص عمل بعد التخرج.</p><p class=\"fw-bold\">● الالتزام بالاحترافية العالية والتحسين المستمر في عملية التعليم والتعلم وفقًا للمبادئ الجودة المتبعة في الجامعة.</p><p class=\"fw-bold\">● بناء الشراكات والتواصل مع المنظمات في القطاعين العام والخاص لفهم المشكلات المتعلقة بالمعلوماتية لتقديم حلول إبداعية"
+        }
+      ]
     }
   ]
 }
