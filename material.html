@@ -18,6 +18,15 @@
         <div class="container-fluid pe-5 ps-5">
             <a class="navbar-brand d-flex text-center" href="#">
                 <img src="Img/Fci_Logo(1).png" alt="logo" width="60" height="60">
+
+                <!-- <div class="logo-text d-flex p-2 fw-bold fs-5">
+                    كلية الحاسبات و المعلومات
+                    <span>جامعه قناه السويس</span>
+                    Faculty Of Computers and Informations
+                    <span>Suez Canal Universty</span>
+                    FCI
+                    <span>SCU</span>
+                </div> -->
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-navbar"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,55 +37,54 @@
             <div class="collapse navbar-collapse" id="main-navbar">
                 <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0 fw-bold">
                     <li class="nav-item">
-                        <a class="nav-link text-center" aria-current="page" href="index.html#Home">Home</a>
+                        <a class="nav-link active text-center" aria-current="page" href="index.html" id="navLink_home">Home</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-center" href="general.html#general-home" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle text-center" href="generalDEP.html#general-home"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false"  id="navLink_generalDepartments">
                             General Departments
                         </a>
                         <ul class="dropdown-menu text-center">
-                            <li><a class="dropdown-item" href="general.html#computer-sciences">Computer sciences</a>
+                            <li><a class="dropdown-item" href="general.html#computer-sciences" id="navLink_computerScience">Computer sciences</a>
                             </li>
-                            <li><a class="dropdown-item" href="general.html#information-system">Information
+                            <li><a class="dropdown-item" href="general.html#information-system" id="navLink_informationSystems">Information
                                     System</a></li>
-                            <li><a class="dropdown-item" href="general.html#basic-sciences">Basic sciences</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle text-center" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
+                            aria-expanded="false" id="navLink_specialDepartments">
                             Special Departments
                         </a>
                         <ul class="dropdown-menu text-center">
-                            <li><a class="dropdown-item" href="special.html#software-engineering">Software
+                            <li><a class="dropdown-item" href="special.html#software-engineering" id="navLink_softwareEngineering">Software
                                     Engineering
                                 </a></li>
-                            <li><a class="dropdown-item" href="special.html#bioinformatics">bioinformatics</a></li>
-                            <li><a class="dropdown-item" href="special.html#artificial-intelligence">Artificial
+                            <li><a class="dropdown-item" href="special.html#bioinformatics" id="navLink_bioinformatics">bioinformatics</a></li>
+                            <li><a class="dropdown-item" href="special.html#artificial-intelligence" id="navLink_artificialIntelligence">Artificial
                                     Intelligence</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-center active" aria-current="page" href="#material">Academic
+                        <a class="nav-link text-center" aria-current="page" href="material.html#material" id="navLink_academicMaterials">Academic
                             Material</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-center" aria-current="page" href="credit.html#credit-home">Credit hours
+                        <a class="nav-link text-center" aria-current="page" href="credit.html#home" id="navLink_creditHoursSystem">Credit hours
                             system</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle text-center" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
+                            aria-expanded="false" id="navLink_buildingMap">
                             Building Map
                         </a>
                         <ul class="dropdown-menu text-center">
-                            <li><a class="dropdown-item" href="#">Old building</a></li>
-                            <li><a class="dropdown-item" href="#">New building</a></li>
+                            <li><a class="dropdown-item" href="#" id="navLink_oldBuildingMap">Old building</a></li>
+                            <li><a class="dropdown-item" href="#" id="navLink_newBuildingMap">New building</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-center" aria-current="page" href="acrivites.html#activite-home">Student
+                        <a class="nav-link text-center" aria-current="page" href="acrivites.html#activite-home" id="navLink_studentActivities">Student
                             Activities</a>
                     </li>
                 </ul>
@@ -88,6 +96,7 @@
                     <label for="color_mode" class="btn-color-mode-switch-inner"></label>
                 </label>
             </div>
+            <a class="Arabic ps-3 pb-2 text-white " id="trans" lang="ar">Ar</a>
         </div>
     </nav>
     <!-- end navbar ---------------------------------------------------------------------->
@@ -294,6 +303,8 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="js/translator.js"></script>
+
     <script>AOS.init();</script>
 </body>
 

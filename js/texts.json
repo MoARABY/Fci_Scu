@@ -1,0 +1,84 @@
+{
+  "sharedComponents": [
+    {
+      "Navbar": [
+        {
+          "HTMLID": "navLink_home",
+          "en": "Home",
+          "ar": "الرئيسية"
+        },
+        {
+          "HTMLID": "navLink_generalDepartments",
+          "en": "General Departments",
+          "ar": "الاقسام العامة"
+        },
+        {
+          "HTMLID": "navLink_computerScience",
+          "en": "Computer Science",
+          "ar": "علوم الحاسوب"
+        },
+        {
+          "HTMLID": "navLink_informationSystems",
+          "en": "Information Systems",
+          "ar": "نظم المعلومات"
+        },
+        {
+          "HTMLID": "navLink_specialDepartments",
+          "en": "Special Departments",
+          "ar": "الاقسام الخاصة"
+        },
+        {
+          "HTMLID": "navLink_softwareEngineering",
+          "en": "Software Engineering",
+          "ar": "هندسة البرمجيات"
+        },
+        {
+          "HTMLID": "navLink_bioinformatics",
+          "en": "Bioinformatics",
+          "ar": "المعلومات الحيوية"
+        },
+        {
+          "HTMLID": "navLink_artificialIntelligence",
+          "en": "Artificial Intelligence",
+          "ar": "الذكاء الصناعي"
+        },
+        {
+          "HTMLID": "navLink_academicMaterials",
+          "en": "Academic Materials",
+          "ar": "المواد الدراسية"
+        },
+        {
+          "HTMLID": "navLink_creditHoursSystem",
+          "en": "Credit Hours System",
+          "ar": "نظام الساعات المعتمدة"
+        },
+        {
+          "HTMLID": "navLink_buildingMap",
+          "en": "Building Map",
+          "ar": "خريطة البناية"
+        },
+        {
+          "HTMLID": "navLink_oldBuildingMap",
+          "en": "Old Building Map",
+          "ar": "خريطة المبنى القديمة"
+        },
+        {
+          "HTMLID": "navLink_newBuildingMap",
+          "en": "New Building Map",
+          "ar": "خريطة المبنى الجديدة"
+        },
+        {
+          "HTMLID": "navLink_studentActivities",
+          "en": "Student Activities",
+          "ar": "الانشطة الطلابية"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "name": "Home",
+      "url": "/"
+    }
+  ]
+}
