@@ -92,9 +92,6 @@ for (let i = 0; i < All_Links.length; i++) {
     // } else if (i == 2) {
     //   location.href = "specialDEP.html#special-home";
     // }
-    // if (Navbar.classList.contains("show")) {
-    //   Navbar.classList.remove("show");
-    // }
   });
 }
 // end link active------------------------------------------------------##########################################
@@ -125,7 +122,6 @@ if (window.location.hash == "#Home") {
       img_slider.classList.remove(`img-fade`);
     }, 0);
   }
-  if (left_arr != null) {
     left_arr.addEventListener("click", () => {
       id--;
       if (id < 0) {
@@ -133,8 +129,6 @@ if (window.location.hash == "#Home") {
       }
       slider(id);
     });
-  }
-  if (right_arr != null) {
     right_arr.addEventListener("click", () => {
       id++;
       if (id > img_arr.length - 1) {
@@ -142,7 +136,6 @@ if (window.location.hash == "#Home") {
       }
       slider(id);
     });
-  }
 }
 // end img slider------------------------------------------------------##########################################
 
@@ -162,64 +155,7 @@ if (window.location.hash == "#Home") {
 //     // }
 //   });
 // }
-// window.addEventListener("scroll", PageHeight());
-// const PageHeight = () => {
-//   let Home = All_Links[0];
-//   let General = All_Links[1];
-//   let Special = All_Links[2];
-//   let Years = All_Links[3];
-//   let CreditH = All_Links[4];
-//   let Building = All_Links[5];
-//   let activites = All_Links[6];
-
-//   let pos_menu = window.scrollY + menu.offsetHeight;
-
-//   let pos_A = A.offsetTop + A.offsetHeight;
-//   let pos_B = B.offsetTop + B.offsetHeight;
-//   let pos_C = C.offsetTop + C.offsetHeight;
-
-//   let distance_A = pos_A - pos_menu;
-//   let distance_B = pos_B - pos_menu;
-//   let distance_C = pos_C - pos_menu;
-
-//   let min = Math.min(
-//     ...[distance_A, distance_B, distance_C].filter((num) => num > 0)
-//   );
-
-//   document.querySelectorAll(".Menu .Item")[0].classList.remove("Highlight");
-//   document.querySelectorAll(".Menu .Item")[1].classList.remove("Highlight");
-//   document.querySelectorAll(".Menu .Item")[2].classList.remove("Highlight");
-
-//   if (min === distance_A)
-//     document.querySelectorAll(".Menu .Item")[0].classList.add("Highlight");
-//   if (min === distance_B)
-//     document.querySelectorAll(".Menu .Item")[1].classList.add("Highlight");
-//   if (min === distance_C)
-//     document.querySelectorAll(".Menu .Item")[2].classList.add("Highlight");
-// };
-
 // end link active------------------------------------------------------##########################################
-
-// start theme switcher------------------------------------------------------##########################################
-
-// set local storage value on load
-// document.documentElement.style.setProperty(
-//   "--btn-location",
-//   localStorage.getItem("btn-location")
-// );
-// document.documentElement.style.setProperty(
-//   "--section-primary-color",
-//   localStorage.getItem("Primary-theme-color")
-// );
-// document.documentElement.style.setProperty(
-//   "--section-scondary-color",
-//   localStorage.getItem("scondary-theme-color")
-// );
-// document.documentElement.style.setProperty(
-//   "--section-third-color",
-//   localStorage.getItem("third-theme-color")
-// );
-//
 
 
 
