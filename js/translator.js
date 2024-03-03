@@ -1,4 +1,4 @@
-fetch("/js/texts.json")
+fetch("js/texts.json")
   .then((response) => response.json())
   .then((data) => {
     main(data);
