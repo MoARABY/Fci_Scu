@@ -100,45 +100,50 @@ for (let i = 0; i < All_Links.length; i++) {
 // end link active------------------------------------------------------##########################################
 
 // start img slider------------------------------------------------------##########################################
+if (window.location.hash == "#Home") {
+  let img_slider = document.querySelector(".home");
+  let left_arr = document.querySelector(".arrow-left");
+  let right_arr = document.querySelector(".arrow-right");
+  console.log(right_arr);
 
-let img_slider = document.querySelector(".home");
-let left_arr = document.querySelector(".arrow-left");
-let right_arr = document.querySelector(".arrow-right");
-let caption_header = document.querySelector(".caption h1");
-let caption_par = document.querySelector(".caption p");
-let img_arr = ["slider11.jpg", "slider22.jpg", "slider44.jpg"];
-//
-let id = 0;
-setInterval(() => {
-  id++;
-  if (id > img_arr.length - 1) {
-    id = 0;
+  let caption_header = document.querySelector(".caption h1");
+  let caption_par = document.querySelector(".caption p");
+  let img_arr = ["slider11.jpg", "slider22.jpg", "slider44.jpg"];
+  //
+  let id = 0;
+  setInterval(() => {
+    id++;
+    if (id > img_arr.length - 1) {
+      id = 0;
+    }
+    slider(id);
+  }, 8000);
+  function slider(id) {
+    img_slider.style.backgroundImage = `url(Img/${img_arr[id]})`;
+    img_slider.classList.add(`img-fade`);
+    setTimeout(() => {
+      img_slider.classList.remove(`img-fade`);
+    }, 0);
   }
-  slider(id);
-}, 8000);
-function slider(id) {
-  img_slider.style.backgroundImage = `url(Img/${img_arr[id]})`;
-  img_slider.classList.add(`img-fade`);
-  setTimeout(() => {
-    img_slider.classList.remove(`img-fade`);
-  }, 0);
+  if (left_arr != null) {
+    left_arr.addEventListener("click", () => {
+      id--;
+      if (id < 0) {
+        id = img_arr.length - 1;
+      }
+      slider(id);
+    });
+  }
+  if (right_arr != null) {
+    right_arr.addEventListener("click", () => {
+      id++;
+      if (id > img_arr.length - 1) {
+        id = 0;
+      }
+      slider(id);
+    });
+  }
 }
-
-left_arr.addEventListener("click", () => {
-  id--;
-  if (id < 0) {
-    id = img_arr.length - 1;
-  }
-  slider(id);
-});
-right_arr.addEventListener("click", () => {
-  id++;
-  if (id > img_arr.length - 1) {
-    id = 0;
-  }
-  slider(id);
-});
-
 // end img slider------------------------------------------------------##########################################
 
 // // start link active------------------------------------------------------##########################################
