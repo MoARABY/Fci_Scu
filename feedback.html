@@ -94,21 +94,17 @@
     <!-- end navbar ---------------------------------------------------------------------->
 
     <!-- start feedback ---------------------------------------------------------------------->
-    <section id="feedback-form" class="feedback-form text-center pb-5 pt-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-6 text-center">
+    <section id="feedback-form" class="feedback-form text-center d-flex align-items-center">
+        <div class="container ">
+            <div class="row d-flex align-items-center">
+                <div class="col-12 col-md-6 text-center pt-3 pb-5">
                     <div id="app">
                         <form class="number-form d-flex align-items-center flex-column">
                             <label for="input1">Your Name:</label>
-                            <input type="text" id="input1" class="input-field">
-
-                            <label for="input3">Email:</label>
-                            <input type="text" id="input2" class="input-field">
-
+                            <input type="text" id="input1" class="input-field text-start">
                             <label for="input2">Your Massage:</label>
                             <!-- <input type="text" id="input3" class="input-field"> -->
-                            <textarea name="" id="input3" class="input-field text-start" cols="30" rows="10"></textarea>
+                            <textarea name="" id="input3" class="input-field text-start" cols="30" rows="7"></textarea>
                             <button type="button" id="sub-btn">Send</button>
                         </form>
                     </div>
@@ -121,10 +117,11 @@
     </section>
     <!-- end feedback ---------------------------------------------------------------------->
 
-    <script src="feedback.js"></script>
+    <script src="js/feedback.js"></script>
     <script src="js/all.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script>AOS.init();</script>
 
 </body>
