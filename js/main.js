@@ -97,7 +97,7 @@ for (let i = 0; i < All_Links.length; i++) {
 // end link active------------------------------------------------------##########################################
 
 // start img slider------------------------------------------------------##########################################
-if (window.location.hash == "#Home") {
+//if (window.location.hash == "#Home") {
   let img_slider = document.querySelector(".home");
   let left_arr = document.querySelector(".arrow-left");
   let right_arr = document.querySelector(".arrow-right");
@@ -136,7 +136,7 @@ if (window.location.hash == "#Home") {
       }
       slider(id);
     });
-}
+//}
 // end img slider------------------------------------------------------##########################################
 
 // // start link active------------------------------------------------------##########################################
