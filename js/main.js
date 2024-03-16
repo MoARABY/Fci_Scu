@@ -105,7 +105,7 @@ for (let i = 0; i < All_Links.length; i++) {
 
   let caption_header = document.querySelector(".caption h1");
   let caption_par = document.querySelector(".caption p");
-  let img_arr = ["slider11.jpg", "slider22.jpg", "slider44.jpg"];
+  let img_arr = ["slider11.jpg", "slider22.jpg", "slider5.jpg"];
   //
   let id = 0;
   setInterval(() => {
